@@ -1,0 +1,37 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #152850;
+  padding: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+}
+
+.logout-btn {
+  background-color: transparent;
+  color: white;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100px;
+}
+
+.digital-card-container {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.digital-card-heading {
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: bold;
+}
